@@ -58,7 +58,7 @@ basic_result_02.grid(row=4, columnspan = 5)
 basic_result_03 = tk.Label(root, text ="?", height = 1)
 basic_result_03.grid(row=5, columnspan = 5)
 
-header_02 = tk.Label(root, text = "2. Advanced Case: ")
+header_02 = tk.Label(root, text = "2. Advanced Case: given lamda & t & i")
 header_02.grid(row=6, column=0)
 ad_label_lamda = tk.Label(root, text = "Enter Value For lamda: ").grid(row=7,column=0)
 ad_entry_lamda = tk.Entry(root, width = 10)

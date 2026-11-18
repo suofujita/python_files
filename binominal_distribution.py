@@ -13,7 +13,7 @@ def calculate():
     pmf = lambda k: comb(n, k) * p**k * (1 - p)**(n - k)
     r1.config(text=f"Probability (Number of Successes = {i}) =  {pmf(i).numerator}/{pmf(i).denominator} = {pmf(i):.8f}")
     result = sum(pmf(k) for k in range(i + 1))
-    r2.config(text=f"Probability (Number of Successes <= {i) = {result.numerator}/{result.denominator} = {result:.8f}")
+    r2.config(text=f"Probability (Number of Successes <= {i}) = {result.numerator}/{result.denominator} = {result:.8f}")
     
 # hàm bổ sung
 def calculate_all():
