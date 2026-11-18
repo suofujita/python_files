@@ -30,7 +30,7 @@ def AdvancedCase():
 # thiết lập cửa sổ
 root = tk.Tk()
 root.title("Poisson Distribution")
-root.geometry("550x500")
+root.geometry("560x500")
 
 # trường hợp cơ bản
 header_01 = tk.Label(root, text = "1. Basic Case: given lamda & i")
